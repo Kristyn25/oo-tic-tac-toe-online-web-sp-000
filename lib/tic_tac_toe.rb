@@ -99,11 +99,7 @@ class TicTacToe
   end
 
   def draw?
-    if @board = !won? && full?
-      return true
-    else
-      return false
-    end
+    !(won?) && (full?)
   end
 
   def over?
