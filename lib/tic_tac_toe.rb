@@ -115,7 +115,7 @@ class TicTacToe
     if won?
       @board[won?[0]]
     end
- end
+  end
 
  def play
   until over?
