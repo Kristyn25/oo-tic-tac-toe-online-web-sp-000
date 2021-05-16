@@ -124,7 +124,7 @@ end
 end
 
 def play
-  until over? == false
+  while over? == false
     turn
   end
   if won?
